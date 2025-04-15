@@ -1,0 +1,77 @@
+
+.profil {
+    background-color: green;
+}
+
+body {
+    margin : 0; /* Il faut enlever les marges par defaut */
+    display: flex;
+    height: 100vh;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    
+}
+
+
+.conv-search {   
+    background-color: lightblue;
+}
+
+.conv-sidebar{
+    background-color: rgba(255, 0, 170, 0.404);
+    width:50%;      /* largeur */
+    height: auto;   /* hauteur */
+
+}
+
+.conv-selection {
+    background-color: blueviolet;
+    margin-bottom: 20px; /* Espacement de 20px entre chaque sélection */
+    
+    
+}
+
+.conv-profile-pic {
+    background-color: brown;
+    width: 50px;
+    height: auto;
+}
+
+.conv-last-message-date {
+    background-color: bisque;
+}
+
+.conv-name {
+    background-color: yellow;
+}
+
+.conv-last-message {
+    background-color: orange;
+}
+
+.chat-container {
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-zone {
+    display: flex;
+    flex: 1;
+
+}
+
+.chat-input {
+
+    background-color: blanchedalmond;
+}
